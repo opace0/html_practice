@@ -47,3 +47,33 @@ href = #name ->div id 상 표시해뒀던 name로 이동.
 <tbody> , <thead>, <tfoot>
 
 4.
+
+<form action = "/example.html" method = "POST>
+  <label for  = "meal">What do you want to eat</label>
+  <input type = "text" name = "food" id = "meal">
+  </form>
+
+//label 태그의 for 값과 input의 id 값을 일치시켜 쓴다.
+
+<input type = "password"> //패스워드 입력창 점으로 표시
+
+   <input id = "amount" name = "amount" type = "number" step = "1">
+   // 안에 순서는 중요하지 않은 모양이다.
+
+   <section class = "">
+
+   <input type = "range" max min step>
+
+  <input checklist>
+  input 안에 value 값은 초기값을 의미한다.
+
+  <input type = "radio">
+  <label id = "">
+
+<select id = "" name = "">과 <datalist id = ""> 차이
+◎ select 안에 option value는 안보이는데 반해 datalist option value는 보인다
+◎ datalist는 입력 가능한데, 만약 항목에 없으면 그거대로 보내진다.
+
+<input type = "submit" value = "Send">
+
+<textarea id = "extra" name rows cols></textarea>
